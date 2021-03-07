@@ -74,16 +74,16 @@
 ## Disclaimer
 <b>Swagkarna Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
 Rafel-Rat is built for both Educational and Internal use ONLY.</b>
+
 ---
 
-<p align="center">
-   # Find Me
-</p>
----  
-<p align="center">[![Discord](https://img.shields.io/static/v1?label=Discord&message=%20&color=blue&logo=Discord&style=flat-square&logoColor=white)](https://discord.gg/CQS8vqTS)
-<p align="center"[![Instagram](https://img.shields.io/static/v1?label=Instagram&message=%20&color=orange&logo=Instagram&style=flat-square&logoColor=white)](https://www.instagram.com/swagkarna/)
+## Find Me :
+  
+[![Discord](https://img.shields.io/static/v1?label=Discord&message=%20&color=blue&logo=Discord&style=flat-square&logoColor=white)](https://discord.gg/CQS8vqTS)
 
-    
+[![Instagram](https://img.shields.io/static/v1?label=Instagram&message=%20&color=orange&logo=Instagram&style=flat-square&logoColor=white)](https://www.instagram.com/swagkarna/)
+
+---    
 
 
 
