@@ -68,8 +68,8 @@
 
 ---
 ### Credits :
- -[Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
- -Aisha
+ - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
+ - Aisha
 --- 
 ### Find Me : 
 
