@@ -71,6 +71,7 @@
 ### Credits :
  - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
  - Aisha
+ - [GraySuit](https://github.com/graysuit)
 --- 
 ## Disclaimer
 <b>Swagkarna Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
