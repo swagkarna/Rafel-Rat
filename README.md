@@ -58,7 +58,7 @@
 2. Now Open login.php 
 3. Enter Username ***Hande*** Password ***Ercel***
 4. Booom !!!! Thats it
-5. Note : Make Sure your webhosting site uses Https
+5. Note : Make Sure your webhosting site uses Https...Use 000webhost.com
 ---
 ## Screenshots
 | | | |
