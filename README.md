@@ -21,10 +21,27 @@
  Rafel is Remote Access Tool Used to Control Victims Using WebPanel With More Advance Features.
 </p>
 
-# Main Features 
+---
+### Main Features 
 - [X] Admin Permission
 - [X] Add App To White List
 - [X] Runs In Background
 - [X] Looks Like Browser
 - [X] Accessibility Feature
 - [X] Support Android v5 - v10
+- [X] No Port Forwarding Needed
+
+---
+
+---
+### Prerequisites 
+ - Android Studio
+ <p align="center">
+  <b> OR </b>
+  </p>
+  
+- ApkEasyTool 
+   -Click [Here](https://forum.xda-developers.com/android/software-hacking/tool-apk-easy-tool-v1-02-windows-gui-t3333960) to download
+  
+---  
+### Building Apk With Android Studio
