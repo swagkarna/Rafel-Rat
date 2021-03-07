@@ -12,8 +12,11 @@
    
   <img alt="GitHub followers" src="https://img.shields.io/github/followers/swagkarna?label=Follow&style=social">
    <a href="https://github.com/swagkarna/Rafel-Rat/stargazers">
-    <img src="https://img.shields.io/github/stars/Elitestuff/FroggyFrog?style=social">
+    <img src="https://img.shields.io/github/stars/swagkarna/Rafel-Rat?style=social">
   </a>
 
 </p>
-                                                                                        
+
+<p align="center">
+ Rafel is Remove Access Tool Used to Control Victims Using WebPanel With More Advance Features.
+</p>
