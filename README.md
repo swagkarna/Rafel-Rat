@@ -33,7 +33,6 @@
 
 ---
 
----
 ### Prerequisites 
  - Android Studio
  <p align="center">
@@ -45,3 +44,10 @@
   
 ---  
 ### Building Apk With Android Studio
+
+1. Open Project in Android Studio 
+2.  Write the ip address of the server where you run this project in the SERVER_URI section in the InternalService.class class
+3.  Now Build the Project
+4.  Now Zipalign and sign the Apk...
+
+---
