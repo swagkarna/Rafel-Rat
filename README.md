@@ -59,6 +59,7 @@
 3. Enter Username ***Hande*** Password ***Ercel***
 4. Booom !!!! Thats it
 5. Note : Make Sure your webhosting site uses Https...Use 000webhost.com
+6. Click Tower Image to send commands and also refresh after it
 ---
 ## Screenshots
 | | | |
