@@ -19,8 +19,8 @@
 ### Main Features 
 - [X] Admin Permission
 - [X] Add App To White List
-- [X] Runs In Background
 - [X] Looks Like Browser
+- [X] Runs In Background Even App is Closed(May not work on some Devices)
 - [X] Accessibility Feature
 - [X] Support Android v5 - v10
 - [X] No Port Forwarding Needed
