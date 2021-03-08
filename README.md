@@ -59,9 +59,9 @@ OR
 <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(73).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(73).png?raw=true"> Panel-4</a>  |  <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(84).png?raw=true"> <img width="1600" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(84).png?raw=true"> Asking Permissions</a>|<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(85).png?raw=trueg"> <img width="1600" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(85).png?raw=true"> Battery Optimisation</a>||
 ---
 
-### Check this Article :
+### Check this Article 
 
-https://dontkillmyapp.com/
+- https://dontkillmyapp.com/
 ---
 ### Credits :
  - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
