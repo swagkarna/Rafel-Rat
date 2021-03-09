@@ -24,6 +24,7 @@
 - [X] Accessibility Feature
 - [X] Support Android v5 - v10
 - [X] No Port Forwarding Needed
+- [X] Acquire Wakelock
 
 ### Prerequisites 
  - Android Studio
