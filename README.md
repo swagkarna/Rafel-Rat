@@ -41,7 +41,7 @@ OR
 3.  Build the Project
 4.  Zipalign and sign the Apk...
 ---
-### Building Apk with ApkEasyTool 
+### Building Apk with ApkEasyTool:
 
 1. Navigate to ***\Lite_Browser\smali\com\velociraptor\raptor*** 
 2. Open InternalService.smali 
