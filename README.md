@@ -3,7 +3,7 @@
   <img width="250" height="250" src="https://media.tenor.com/images/2c3668f83f251c47fe4319ed58961898/tenor.gif">
 </p>
 <h1 align="center">Rafel</h1><p align="center">
-<b>Rafel</b> is <b>Remote Access Tool</b> Used to Control Victims Using <b>WebPanel</b> With More Advance Features.
+<b>Rafel</b> is <b>Remote Access Tool</b> Used to Control Victims Using <b>WebPanel</b> With More Advance Features..
 </p>   
 
 <p align=center>  
