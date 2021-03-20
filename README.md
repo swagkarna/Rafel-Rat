@@ -17,7 +17,7 @@
 
 
 ---
-### Main Features 
+### Main Features  :
 - [X] Admin Permission
 - [X] Add App To White List
 - [X] Looks Like Browser
