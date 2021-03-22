@@ -6,7 +6,7 @@ if (isset($_POST['inputUsername']) && isset($_POST['inputPassword'])){
     $password = $_POST['inputPassword'];
     
     $login_status = login($username, $password);
-    echo $login_status;
+    //echo $login_status;
     if($login_status == true){
         header('Location: index.php');
     }
