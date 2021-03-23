@@ -55,7 +55,7 @@ OR
 ---
 ### Rafel-Rat in Action[  Code Will Be Updated Soon] :
 
-<img width="750" height="350" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
+<img width="650" height="450" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
 ---
 ## Screenshots
 | | | |
