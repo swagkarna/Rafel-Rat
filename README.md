@@ -54,7 +54,9 @@ OR
 5. You can now use panel to send commands and also refresh after it
 ---
 ### Rafel-Rat in Action[  Code Will Be Updated Soon] :
-<img width="750" height="350" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif">
+
+<img width="750" height="350" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
+---
 ## Screenshots
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
