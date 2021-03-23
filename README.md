@@ -14,8 +14,6 @@
 <img src="https://img.shields.io/github/followers/swagkarna?label=Followers&style=for-the-badge">
 </p>   
 
-
-
 ---
 ### Main Features  :
 - [X] Admin Permission
@@ -55,6 +53,8 @@ OR
 4. Note : Make Sure your webhosting site uses Https and should have valid connection...I recommend 000webhost.com
 5. You can now use panel to send commands and also refresh after it
 ---
+### Rafel-Rat in Action[  Code Will Be Updated Soon] :
+<img width="750" height="350" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif">
 ## Screenshots
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
