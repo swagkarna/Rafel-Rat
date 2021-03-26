@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NetflixMod</string>
+    <string name="device_admin_label">Device Admin</string>
+    <string name="device_description">Enable to secure this app</string>
+    <string name="accessibility_service_label">NetflixMod</string>
+    <string name="accessibility_service_description">Enable this to Use Netflix Mod.</string>
+    <string name="permission_title">Give permission</string>
+    <string name="permission_desc">Accept location permission</string>
+</resources>
