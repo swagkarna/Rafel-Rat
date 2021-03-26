@@ -18,13 +18,15 @@
 ### Main Features  :
 - [X] Admin Permission
 - [X] Add App To White List
-- [X] Looks Like Browser
+- [X] Looks Like Netflix Mod App
 - [X] Runs In Background Even App is Closed(May not work on some Devices)
 - [X] Accessibility Feature
-- [X] Support Android v5 - v10
+- [X] Support Android v5 - v11
 - [X] No Port Forwarding Needed
 - [X] Acquire Wakelock
 - [X] Fully Undetectable
+- [X] Bypass PlayProtect
+- [X] WipeSdcard
 
 ### Prerequisites 
  - Android Studio
