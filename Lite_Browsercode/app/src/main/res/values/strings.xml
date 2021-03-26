@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Lite_Browser</string>
-
-    <string name="permission_title">Give permission</string>
-    <string name="permission_desc">Accept location permission</string>
-</resources>
