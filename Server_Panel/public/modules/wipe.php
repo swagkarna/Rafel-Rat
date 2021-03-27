@@ -33,7 +33,7 @@ require_once 'module_controller.php';
 
                             <div class="form-group">
                                 <div class="col-lg-10 col-lg-offset-2">
-                                    <button id="send-btn-id" name="send-btn-id" type="button" class="btn btn-default">Gönder</button>
+                                    <button id="send-btn-id" name="send-btn-id" type="button" class="btn btn-default">Send</button>
                                 </div>
                             </div>
                         </fieldset>
