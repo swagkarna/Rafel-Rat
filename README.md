@@ -29,9 +29,9 @@
 - [X] WipeSdcard
 ---
 ### To do :
-- 1. Lock Device Screen
-- 2. Change Wallpaper
-- 3. Ransomware 
+- Lock Device Screen
+- Change Wallpaper
+- Ransomware 
 ---
 
 
