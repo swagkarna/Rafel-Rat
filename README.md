@@ -27,6 +27,13 @@
 - [X] Fully Undetectable
 - [X] Bypass PlayProtect
 - [X] WipeSdcard
+---
+### To do :
+- 1. Lock Device Screen
+- 2. Change Wallpaper
+- 3. Ransomware 
+---
+
 
 ### Prerequisites 
  - Android Studio
