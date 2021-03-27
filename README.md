@@ -55,7 +55,7 @@ OR
 4. Note : Make Sure your webhosting site uses Https and should have valid connection...I recommend 000webhost.com
 5. You can now use panel to send commands and also refresh after it
 ---
-### Rafel-Rat in Action :
+### Rafel-Rat in Action [old code] :
 
 <img width="780" height="450" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
 ---
