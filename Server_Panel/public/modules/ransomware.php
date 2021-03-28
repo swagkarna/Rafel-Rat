@@ -7,7 +7,7 @@ require_once 'module_controller.php';
 
                 <div class="row"></div>
                 <br><br>
-                <legend>LockTheScreen</legend>
+                <legend>Ransomware</legend>
                 <div class="row">
                     <form class="form-horizontal col-md-8 col-lg-offset-1">
                         <fieldset>
