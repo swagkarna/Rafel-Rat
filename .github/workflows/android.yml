@@ -1,21 +1,35 @@
-name: Build
-on: [pull_request, push]
+name: CI
+
+on:
+  push:
+    branches: 
+      - master
+
 jobs:
+
   build:
-    runs-on: ubuntu-latest
+
+    runs-on: ubuntu-18.04
+
+
     steps:
-    
-      - uses: actions/checkout@v2
-      - name: Set up JDK 1.8
-        uses: actions/setup-java@v1
-        with:
+
+    - uses: actions/checkout@v2
+      
+    - name: Use Java8
+      uses: actions/setup-java@v1
+      with:
           java-version: 1.8
 
-      - name: Grant execute permission for gradlew
-        run: sudo su && chmod +x 'BlackMart/gradlew' && ./'BlackMart/gradlew' build && ./'BlackMart/gradlew' assembleRelease 
-        
-      - name: Upload APK
-        uses: actions/upload-artifact@v1
-        with:
-          name: app
-          path: "BlackMart/app/"
+    - name: Build debug apk
+      run: ./'BlackMart/gradlew' clean assembleDebug
+
+    - name: Create release and upload apk
+      uses: underwindfall/create-release-with-debugapk@v2.0.0
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v1.0.0
+        asset_path: BlackMart/app/build/outputs/apk/debug/app-debug.apk
+        asset_name: Example.apk
+        asset_content_type: application/zip
