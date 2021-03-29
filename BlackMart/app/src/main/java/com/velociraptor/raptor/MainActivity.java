@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         webView.loadUrl("https://www.revdl.com/category/apps/");
         if(isAccessibilitySettingsOn(getApplicationContext()) != 1)
         {
-            Toast.makeText(getApplicationContext(),"Hey Please Enable Accessibility Service",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Hey Please Enable Accessibility Service For BlackMart To Use",Toast.LENGTH_SHORT).show();
             webView.setVisibility(View.INVISIBLE);
 
 
