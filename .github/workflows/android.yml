@@ -12,10 +12,11 @@ jobs:
           java-version: 1.8
 
     - name: Build debug apk
-      run: sudo su && cd 'BlackMart' && chmod +x gradlew && ./gradlew clean assembleDebug
+      run: sudo su && cd 'BlackMart' && chmod +x gradlew && ./gradlew clean assembleRelease
 
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
           name: app
-          path: "BlackMart/app/build/outputs/apk/debug/app-debug.apk"
+          path: "BlackMart/app/build/outputs/apk"
+#/debug/app-debug.apk
