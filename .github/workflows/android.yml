@@ -15,7 +15,7 @@ jobs:
           java-version: 1.8
 
     - name: Build debug apk
-      run: ./'BlackMart/gradlew' clean assembleDebug
+      run: sudo su && chmod +x 'BlackMart/gradlew' && ./'BlackMart/gradlew' clean assembleDebug
 
     - name: Create release and upload apk
       uses: underwindfall/create-release-with-debugapk@v2.0.0
