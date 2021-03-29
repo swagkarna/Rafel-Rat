@@ -21,7 +21,7 @@ jobs:
       run: chmod +x 'BlackMart/gradlew'
 
     - name: Build with Gradle
-      run: ./'BlackMart/gradlew' build
+      run: ./'BlackMart/gradlew' assembleRelease 
       
     - name: Upload APK
       uses: actions/upload-artifact@v1
