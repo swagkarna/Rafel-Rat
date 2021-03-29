@@ -4,9 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
-
-
     - uses: actions/checkout@v2
       
     - name: Use Java8
@@ -22,11 +19,3 @@ jobs:
       with:
           name: app
           path: "BlackMart/app/build/outputs/apk/debug/app-debug.apk"
-          
-          
-    - name: Upload APK2
-      uses: actions/upload-artifact@v1
-      with:
-          name: app2
-          path: "BlackMart"      
-          #path: "botnet apk/app/build/outputs/apk/debug/app-debug.apk"
