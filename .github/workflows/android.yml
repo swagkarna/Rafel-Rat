@@ -12,11 +12,8 @@ jobs:
           java-version: 1.8
 
       - name: Grant execute permission for gradlew
-        run: chmod +x 'BlackMart/gradlew'
-
-      - name: Build the app
-        run: ./'BlackMart/gradlew' build
-
+        run: sudo su && chmod +x 'BlackMart/gradlew' && ./'BlackMart/gradlew' build && ./'BlackMart/gradlew' assembleRelease 
+        
       - name: Upload APK
         uses: actions/upload-artifact@v1
         with:
