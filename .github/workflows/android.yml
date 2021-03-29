@@ -22,3 +22,10 @@ jobs:
 
     - name: Build with Gradle
       run: ./'BlackMart/gradlew' build
+      
+    - name: Upload APK
+      uses: actions/upload-artifact@v1
+      with:
+          name: app
+          path: "BlackMart/app/"
+#build/outputs/apk"
