@@ -1,15 +1,4 @@
-name: Android CI
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-
- name: Build
+name: Build
 on: [pull_request, push]
 jobs:
   build:
@@ -18,8 +7,8 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x 'BlackMart/gradlew'
+      - name: Grant execute permission for gradlew
+        run: chmod +x 'BlackMart/gradlew'
 
       - name: Build the app
         run: ./'BlackMart/gradlew' build
