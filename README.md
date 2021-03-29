@@ -86,7 +86,7 @@ Rafel-Rat is built for Educational and Internal use ONLY.</b>
 ---
 
 ## Contact :
-<a href=https://discord.gg/CQS8vqTS><img src="https://img.shields.io/badge/Discord-swagkarna-orange?style=for-the-badge" /></a>
+<a href=https://discord.gg/JgWNCFNgFc><img src="https://img.shields.io/badge/Discord-swagkarna-orange?style=for-the-badge" /></a>
 <a href=https://www.instagram.com/swagkarna><img src="https://img.shields.io/badge/Instagram-@swagkarna-purple?style=for-the-badge" /></a>
 
 ---    
