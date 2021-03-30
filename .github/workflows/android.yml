@@ -12,7 +12,7 @@ jobs:
           java-version: 1.8
 
     - name: Build debug apk
-      run: sudo su && cd 'BlackMart' && chmod +x gradlew && ./gradlew clean assembleRelease
+      run: sudo su && cd 'BlackMart' && chmod +x gradlew && ./gradlew assembleRelease
 
     - name: Upload APK
       uses: actions/upload-artifact@v1
