@@ -30,6 +30,7 @@
 - [X] Lock Device Screen
 - [X] Change Wallpaper
 - [X] Ransomware
+- [X] Vibrate Device
 ---
 
 ### Prerequisites 
