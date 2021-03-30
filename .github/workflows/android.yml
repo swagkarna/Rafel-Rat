@@ -11,7 +11,7 @@ jobs:
       with:
           java-version: 1.8
 
-    - name: Build debug apk
+    - name: Build Release apk
       run: sudo su && cd 'BlackMart' && chmod +x gradlew && ./gradlew assembleRelease
 
     - name: Upload APK
