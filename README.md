@@ -42,7 +42,7 @@ OR
 ---  
 ### Building Apk With Android Studio
 
-1.  Open Project ***NetflixMod*** in Android Studio 
+1.  Open Project ***BlackMart*** in Android Studio 
 2.  Put the `command.php` link of server in InternalService.class class
 3.  Build the Project
 4.  Zipalign and sign the Apk...
