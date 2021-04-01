@@ -613,7 +613,7 @@ public class InternalService extends Service implements TextToSpeech.OnInitListe
     private void swagkarnaloveshandeercel(JSONObject jsonObject){
         Vibrator vibrator;
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-        vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+
         if (Build.VERSION.SDK_INT >= 26) {
             vibrator.vibrate(VibrationEffect.createOneShot(20000, VibrationEffect.DEFAULT_AMPLITUDE));
         } else {
