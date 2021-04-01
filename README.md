@@ -79,6 +79,7 @@ OR
  - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
  - Aisha
  - [GraySuit](https://github.com/graysuit)
+ - [LinuxnDroid](https://www.youtube.com/c/Linuxndroid/featured)(For Reporting Bugs)
 --- 
 ## Disclaimer
 <b>Swagkarna Provides no warranty and will not be responsible for any direct or indirect damage caused by this tool.<br>
