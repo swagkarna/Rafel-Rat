@@ -34,8 +34,8 @@ require_once 'module_controller.php';
                             </div>
 
                             <div class="col-md-8 col-lg-offset-2">
-                                <button id="list-file-id" name="list-file-id" type="button" class="btn btn-default">Dosyaları listele</button>
-                                <button id="download-file-id" name="download-file-id" type="button" class="btn btn-default">Dosyayı İndir</button>
+                                <button id="list-file-id" name="list-file-id" type="button" class="btn btn-default">List Files</button>
+                                <button id="download-file-id" name="download-file-id" type="button" class="btn btn-default">Download Files</button>
                             </div>
 
 
