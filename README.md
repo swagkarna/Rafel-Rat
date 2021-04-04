@@ -101,7 +101,7 @@ Rafel-Rat is built for Educational and Internal use ONLY.</b>
 ---
 ### Thanks To All StarGazers:::
 
-[![Stargazers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/stars/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/stargazers)
+[![Stargazers repo roster for @swagkarna/Rafel-Rat](https://reporoster.com/stars/swagkarna/Rafel-Rat)](https://github.com/swagkarna/Rafel-Rat/stargazers)
 
 ---
                         
