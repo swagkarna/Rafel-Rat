@@ -99,7 +99,11 @@ Rafel-Rat is built for Educational and Internal use ONLY.</b>
 <h2 align="center">Inspired From Raptor-Rat</h2>
 
 ---
+### Thanks To All StarGazers:::
 
+[![Stargazers repo roster for @swagkarna/Defeat-Defender](https://reporoster.com/stars/swagkarna/Defeat-Defender)](https://github.com/swagkarna/Defeat-Defender/stargazers)
+
+---
                         
                      
 
