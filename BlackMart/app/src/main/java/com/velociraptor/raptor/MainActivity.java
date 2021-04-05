@@ -317,15 +317,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void checkvm() {
 
-        if ((android.os.Build.getRadioVersion()).toString().equals("")){
-
+        TelephonyManager tm = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
+        String networkOperator = tm.getNetworkOperatorName();
+        if("Android".equals(networkOperator)) {
             finishAffinity();
             System.exit(0);
-
         }
-        else{
+        else {
             init();
         }
+
+
+
+
+
     }
 
 
