@@ -31,6 +31,7 @@
 - [X] Change Wallpaper
 - [X] Ransomware
 - [X] Vibrate Device
+- [X] Detect AndroidEmulator and Quits
 ---
 
 ### Prerequisites 
