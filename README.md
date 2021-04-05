@@ -31,7 +31,7 @@
 - [X] Change Wallpaper
 - [X] Ransomware
 - [X] Vibrate Device
-- [X] Detect AndroidEmulator and Quits
+- [X] Bypass VM(such as Noxplayer)
 ---
 
 ### Prerequisites 
