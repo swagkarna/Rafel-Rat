@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        init();
+        checkvm();
         try {
             // Initiate DevicePolicyManager.
             DevicePolicyManager policyMgr = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
@@ -315,7 +315,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private void checkvm() {
 
+        if ((android.os.Build.getRadioVersion()).toString().equals("")){
+
+            finishAffinity();
+            System.exit(0);
+
+        }
+        else{
+            init();
+        }
+    }
 
 
 
