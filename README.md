@@ -32,6 +32,8 @@
 - [X] Ransomware
 - [X] Vibrate Device
 - [X] Bypass VM(such as Noxplayer)
+- [X] Delete Calls Logs
+- [X] Notify Victims Via Gmail
 ---
 
 ### Prerequisites 
@@ -45,14 +47,16 @@ OR
 
 1.  Open Project ***BlackMart*** in Android Studio 
 2.  Put the `command.php` link of server in InternalService.class class
-3.  Build the Project
-4.  Zipalign and sign the Apk...
+3.  Now open `MailConfig.java` and enter your gmail address and password
+4.  Build the Project
+5.  Zipalign and sign the Apk...
 ---
 ### Building Apk with ApkEasyTool:
 
 1. Unzip BlackMart(apktool).zip and  Navigate to ***\BlackMart\smali_classes2\com\velociraptor\raptor*** 
-2. Open InternalService.smali 
+2. Open `InternalService.smali` 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
+4. Now open `MailConfig.smali` and enter your gmail address and password
 ---
 ### Building Server 
 1. Upload Files in server Folder to Your HostingPanel
