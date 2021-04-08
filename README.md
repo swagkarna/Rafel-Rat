@@ -83,6 +83,7 @@ OR
 ### Credits :
  - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
  - Aisha
+ - Rk10
  - [GraySuit](https://github.com/graysuit)
  - [LinuxnDroid](https://www.youtube.com/c/Linuxndroid/featured)(For Reporting Bugs)
 --- 
