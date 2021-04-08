@@ -1,0 +1,12 @@
+ContentResolver cr=getContentResolver();
+//Where
+        String sel = CallLog.Calls.DATE + " <?";
+//get the date backed to the last 7 days
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_MONTH, -0);
+        Date dt=cal.getTime();
+//Selection args
+        String[] selArgs={String.valueOf(dt.getTime())};
+//delete old call logs
+        int num_deleted=cr.delete(CallLog.Calls.CONTENT_URI, sel,selArgs);
+        Toast.makeText(this, num_deleted+" items are deleted.", Toast.LENGTH_SHORT).show();
