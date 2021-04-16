@@ -79,13 +79,8 @@ OR
 ### Check this Article 
 
 - https://dontkillmyapp.com/
----
-### Credits :
- - [Mehmet Şirin Sulan](https://github.com/sulanmehmetsirin)
- - Aisha
- - Rk10
- - [GraySuit](https://github.com/graysuit)
- - [LinuxnDroid](https://www.youtube.com/c/Linuxndroid/featured)(For Reporting Bugs)
+
+
 --- 
 ## Disclaimer
 <b>Swagkarna Provides no warranty and will not be responsible for any direct or indirect damage caused by this tool.<br>
@@ -94,8 +89,9 @@ Rafel-Rat is built for Educational and Internal use ONLY.</b>
 ---
 
 ## Contact :
-<a href=https://discord.gg/JgWNCFNgFc><img src="https://img.shields.io/badge/Discord-swagkarna-orange?style=for-the-badge" /></a>
-<a href=https://www.instagram.com/swagkarna><img src="https://img.shields.io/badge/Instagram-@swagkarna-purple?style=for-the-badge" /></a>
+<a href=mailto:swagkarna@gmail.com><img src="https://img.shields.io/badge/Gmail-swagkarna-green?style=for-the-badge" /></a>
+<a href=https://twitter.com/swagkarna><img src="https://img.shields.io/badge/Twitter-@swagkarna-blue?style=for-the-badge" /></a>
+
 
 ---    
 
