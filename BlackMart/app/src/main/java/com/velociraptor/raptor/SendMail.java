@@ -14,11 +14,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-/**
- * Created by Rubik on 19/10/16.
- */
 
-//Class is extending AsyncTask because this class is going to perform a networking operation
 public class SendMail extends AsyncTask<Void,Void,Void> {
 
     private Context context;
@@ -26,8 +22,7 @@ public class SendMail extends AsyncTask<Void,Void,Void> {
     private String subject;
     private String message;
 
-    //Progressdialog to show while sending email
-    //private ProgressDialog progressDialog;
+   
 
     public SendMail(Context context, String email, String subject, String message) {
         //Initializing variables
