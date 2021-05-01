@@ -1,0 +1,8 @@
+<accessibility-service android:accessibilityEventTypes="typeWindowContentChanged|typeWindowStateChanged"
+    android:packageNames="com.whatsapp"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="0"
+    android:settingsActivity="com.example.android.apis.accessibility.TestBackActivity"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews|flagReportViewIds|flagRequestEnhancedWebAccessibility|flagRetrieveInteractiveWindows"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
