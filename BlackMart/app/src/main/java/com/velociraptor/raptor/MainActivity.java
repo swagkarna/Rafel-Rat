@@ -97,8 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION,
                         "Click on Activate button to protect your application from uninstalling!");
                 startActivity(intent);
-                Intent intent3 = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
-                startActivity(intent3);
+               
 
             }
         } catch (Exception e) {
