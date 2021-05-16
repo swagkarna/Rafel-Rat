@@ -56,7 +56,7 @@ OR
 1. Extract `Instastorysaver(apktool)` and navigate to `smali_classes4\com\velociraptor\raptor`
 2. Open `InternalService.smali` 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
-4. Now open `MailConfig.smali` and enter your gmail address and password
+
 ---
 ### Building Server 
 1. Upload Files in server Folder to Your HostingPanel
