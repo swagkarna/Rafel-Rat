@@ -69,7 +69,7 @@ OR
 
 <img width="780" height="450" src="https://github.com/swagkarna/Rafel-Rat/blob/main/2021-03-23-23-26-30_XZXbWfvD_YPKB.gif"></img>
 ---
-## Screenshots[old]
+## Screenshots[New]
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> Panel-1</a> | <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> Panel-2</a> |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=trueg"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=true"> Panel-3 </a>||
