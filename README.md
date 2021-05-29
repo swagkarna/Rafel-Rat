@@ -72,6 +72,8 @@ OR
 
 https://user-images.githubusercontent.com/46685308/120080601-603c5380-c0d7-11eb-82b2-345d0bff7581.mp4
 
+Watch Video in Full Screen For Better Quality
+
 ---
 ## Screenshots[New]
 | | | |
