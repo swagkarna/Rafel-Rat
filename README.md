@@ -14,7 +14,7 @@
 <img src="https://img.shields.io/github/followers/swagkarna?label=Followers&style=for-the-badge">
 </p>   
 
-* **If you like the tool and for my personal motivation so as to develop other tools please a +1 star** 
+* **If you like the tool and for my personal motivation so as to develop other tools please leave a +1 star** 
 
 ---
 ### Main Features  :
