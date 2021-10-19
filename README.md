@@ -81,7 +81,7 @@ Watch Video in Full Screen For Better Quality
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(70).png?raw=true"> Panel-1</a> | <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(71).png?raw=true"> Panel-2</a> |<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=trueg"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(72).png?raw=true"> Panel-3 </a>||
-<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(73).png?raw=true"> <img width="2000" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/Screenshot%20(73).png?raw=true"> Panel-4</a>  |  <a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/11.png?raw=true"> <img width="1600" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/11.png?raw=true"> Asking Permissions</a>|<a href="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/22.png?raw=trueg"> <img width="1600" src="https://github.com/swagkarna/Rafel-Rat/blob/main/Screenshots/22.png?raw=true"> LegitModApp</a>||
+
 ---
 
 ### Check this Article 
