@@ -35,6 +35,8 @@
 - [X] Bypass VM(such as Noxplayer)
 - [X] Delete Calls Logs
 - [X] Notify Victims Via Gmail
+- [X] steal notifications(send through discord)
+- [X] Added AutoStart For (xiaomi,oppo,vivo,LetV,Honor)
 ---
 
 ### Prerequisites 
