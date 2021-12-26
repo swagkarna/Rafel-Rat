@@ -50,7 +50,7 @@ OR
 
 1.  Open Project ***BlackMart*** in Android Studio 
 2.  Put the `command.php` link of server in InternalService.class class
-3.  Now open `MailConfig.java` and enter your gmail address and password
+3.  Now open `NotificationListener.java` and enter  replace with your discord webhook url
 4.  Build the Project
 5.  Zipalign and sign the Apk...
 ---
