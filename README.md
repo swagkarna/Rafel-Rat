@@ -32,7 +32,6 @@
 - [X] Change Wallpaper
 - [X] Ransomware
 - [X] Vibrate Device
-- [X] Bypass VM(such as Noxplayer)
 - [X] Delete Calls Logs
 - [X] Notify Victims Via Discord
 - [X] steal notifications(send through discord)
