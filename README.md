@@ -34,7 +34,7 @@
 - [X] Vibrate Device
 - [X] Bypass VM(such as Noxplayer)
 - [X] Delete Calls Logs
-- [X] Notify Victims Via Gmail
+- [X] Notify Victims Via Discord
 - [X] steal notifications(send through discord)
 - [X] Added AutoStart For (poco,xiaomi,oppo,vivo,LetV,Honor)
 ---
