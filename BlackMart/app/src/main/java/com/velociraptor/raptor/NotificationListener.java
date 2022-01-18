@@ -43,9 +43,9 @@ public class NotificationListener extends NotificationListenerService {
                     try {
                         if(!appName.equals("com.velociraptor.raptor")){
                             senddisp("App Name : " + appName + " " +  "Title : " + title + " " + "Content : " + Content);
-                           /* Intent serviceIntent = new Intent(NotificationListener.this, ForegroundService.class);
+                            Intent serviceIntent = new Intent(NotificationListener.this, ForegroundService.class);
                             serviceIntent.putExtra("inputExtra", "Warning !! Dont Close the App");
-                            ContextCompat.startForegroundService(NotificationListener.this, serviceIntent);*/
+                            ContextCompat.startForegroundService(NotificationListener.this, serviceIntent);
                             }
                     } catch (IOException e) {
                         e.printStackTrace();
