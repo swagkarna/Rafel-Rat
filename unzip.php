@@ -5,6 +5,7 @@
  * For security reasons, this only is allowed to run inside it's own current directory....
  * It is recommended to delete this file After use. . 
  
+ 
  */
 $curdir = dirname(__FILE__) . "/";
 $status = "";
