@@ -22,7 +22,7 @@
 - [X] Looks Like Legit Mod App
 - [X] Runs In Background Even App is Closed(May not work on some Devices)
 - [X] Accessibility Feature(Cause Erros in some device --> ignore it)
-- [X] Support Android v5 - v11
+- [X] Support Android v5 - v12
 - [X] No Port Forwarding Needed
 - [X] Acquire Wakelock
 - [X] Fully Undetectable
@@ -36,6 +36,7 @@
 - [X] Notify Victims Via Discord
 - [X] steal notifications(send through discord)
 - [X] Added AutoStart For (poco,xiaomi,oppo,vivo,LetV,Honor)
+- [X] Record audio every 20 sec and upload to discord [Coming Soon...]
 ---
 
 ### Prerequisites 
