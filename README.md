@@ -36,7 +36,6 @@
 - [X] Notify Victims Via Discord
 - [X] steal notifications(send through discord)
 - [X] Added AutoStart For (poco,xiaomi,oppo,vivo,LetV,Honor)
-- [X] Record audio every 20 sec and upload to discord [Coming Soon...]
 ---
 
 ### Prerequisites 
