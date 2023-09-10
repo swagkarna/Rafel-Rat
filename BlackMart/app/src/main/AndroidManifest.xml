@@ -85,7 +85,9 @@
 
         <service
             android:name=".InternalService"
+            android:stopWithTask="false"
             android:exported="true"/>
+
     </application>
 
 </manifest>
